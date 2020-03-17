@@ -6,7 +6,7 @@
     font-size: 24px;
 }
 
-[target] [href] {
+a[target][href] {
     color: green;
 }
 
