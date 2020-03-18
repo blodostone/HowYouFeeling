@@ -2,7 +2,11 @@
     color: green;
 }
 
-header footer {
+header {
+    border: 3px dashed blue;
+}
+
+footer {
     border: 3px dashed blue;
 }
 
@@ -22,6 +26,10 @@ article.new.posted-today {
     background-color: pink;
 }
 
-ol ul {
+ul {
+    background-color: yellow;
+}
+
+ol {
     background-color: yellow;
 }
