@@ -21,3 +21,7 @@ li.new {
 article.new.posted-today {
     background-color: pink;
 }
+
+ol ul {
+    background-color: yellow;
+}
