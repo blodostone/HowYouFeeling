@@ -2,7 +2,7 @@ li {
     margin-bottom: 16px;
 }
 
-ul>li:first-child {
+ul>li:first-child>span {
     background-color: red;
     color: white;
 }
@@ -16,6 +16,6 @@ li:nth-child(even) {
     margin-left: 16px;
 }
 
-.paragraphs:nth-child(odd) {
+div.paragraphs:nth-child(odd) {
     background-color: gray;
 }
