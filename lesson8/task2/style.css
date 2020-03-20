@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.rectangle {
+    width: 420px;
+    height: 140px;
+    background-color: bisque;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 20px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-style: solid solid dashed dashed;
+    border-color: firebrick chartreuse burlywood aqua;
+    font-size: 24px;
+}
