@@ -1,6 +1,10 @@
+body {
+    background-color: antiquewhite;
+}
+
 .who {
     box-sizing: border-box;
-    border: 8px solid;
+    border: 8px solid black;
     margin: 16px;
     padding: 16px;
     width: 512px;
@@ -10,7 +14,7 @@
 
 .how {
     box-sizing: border-box;
-    border: 8px solid;
+    border: 8px solid black;
     margin: 16px;
     padding: 16px;
     width: 512px;
