@@ -3,7 +3,7 @@ body {
 }
 
 .who {
-    box-sizing: border-box;
+    box-sizing: content-box;
     border: 8px solid black;
     margin: 16px;
     padding: 16px;
