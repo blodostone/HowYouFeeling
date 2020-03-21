@@ -1,0 +1,28 @@
+div {
+    margin: 50px 0 0 50px;
+}
+
+.rectangle1 {
+    border: 2px solid black;
+    margin: 50px;
+    background-color: blue;
+}
+
+.rectangle2 {
+    border: 2px solid black;
+    margin: 50px;
+    background-color: yellow;
+}
+
+.rectangle3 {
+    border: 2px solid black;
+    margin: 50px;
+    background-color: green;
+}
+
+.rectangle4 {
+    padding: 25px;
+    border: 2px solid black;
+    margin: 50px;
+    background-color: pink;
+}
