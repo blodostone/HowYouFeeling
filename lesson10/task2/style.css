@@ -37,20 +37,21 @@
 }
 
 .navigation_w {
-    margin-right: 10px;
+    margin-right: 16px;
 }
 
 .news {
     display: flex;
     align-items: center;
     flex-direction: column;
+    height: 40px;
 }
 
 .fake_news {
     display: flex;
-    height: 40px;
     list-style-type: none;
     align-content: space-around;
+    height: 40px;
 }
 
 .dashboard {
