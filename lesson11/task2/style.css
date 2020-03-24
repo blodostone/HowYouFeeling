@@ -4,6 +4,9 @@
 
 .articles {
     display: flex;
+}
+
+.visible-text {
     height: 100px;
     width: 150px;
     background-color: beige;
@@ -11,15 +14,27 @@
 }
 
 .cropped {
+    height: 100px;
+    width: 150px;
     overflow: hidden;
+    background-color: beige;
+    margin: 16px;
 }
 
 .both-scrolls {
+    height: 100px;
+    width: 150px;
     overflow: scroll;
     cursor: all-scroll;
+    background-color: beige;
+    margin: 16px;
 }
 
 .vertical-scroll {
+    height: 100px;
+    width: 150px;
     overflow: auto;
     cursor: all-scroll;
+    background-color: beige;
+    margin: 16px;
 }
