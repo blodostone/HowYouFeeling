@@ -9,5 +9,5 @@
 }
 
 .gallery {
-    display: flex;
+    display: inline-flex;
 }
