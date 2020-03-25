@@ -12,8 +12,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #fff;
+    -webkit-text-fill-color: #fff;
     background-size: cover;
     padding: 32px;
-    background-repeat: no-repeat;
-    background-color: #ff0000;
 }
