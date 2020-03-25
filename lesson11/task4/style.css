@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 .tooltip-text {
     position: relative;
     margin: 16px;
-    text-decoration: 1px dotted black;
-    display: inline-block;
+    border-bottom: 1px dotted black;
+    display: inline-flex;
 }
 
 .tooltip {
@@ -13,9 +17,8 @@
     padding: 8px;
     bottom: -40px;
     z-index: 1;
-    display: none;
 }
 
-.tooltip-text:hover .tooltip {
+.tooltip-text:hover title {
     display: block;
 }
