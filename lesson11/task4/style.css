@@ -1,19 +1,19 @@
 .tooltip {
-    margin: 16px;
-    border-bottom: 1px dotted black;
     position: relative;
     display: inline-block;
+    border-bottom: 1px dotted black;
+    margin: 16px;
 }
 
 .tooltip .tooltip-text {
-    background-color: grey;
-    color: white;
-    border-radius: 4px;
-    padding: 8px;
-    bottom: -40px;
-    position: absolute;
     display: none;
+    background-color: grey;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    position: absolute;
     z-index: 1;
+    bottom: -40px;
 }
 
 .tooltip:hover .tooltip-text {
