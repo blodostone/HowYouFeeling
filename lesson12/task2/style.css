@@ -5,10 +5,9 @@ html {
 header {
     font-size: 74px;
     width: 50%;
-    display: flex;
-    justify-content: space-around;
-    /* white-space: nowrap; */
+    white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .divHere {
