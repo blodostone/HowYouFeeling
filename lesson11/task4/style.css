@@ -1,22 +1,17 @@
-* {
-    box-sizing: border-box;
-}
-
 .tooltip-text {
-    position: relative;
     margin: 16px;
     border-bottom: 1px dotted black;
+    position: relative;
     display: inline-flex;
 }
 
 .tooltip {
-    position: absolute;
     background-color: grey;
     color: white;
     border-radius: 4px;
     padding: 8px;
     bottom: -40px;
-    z-index: 1;
+    position: absolute;
 }
 
 .tooltip-text:hover title {
