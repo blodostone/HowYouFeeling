@@ -5,9 +5,9 @@
 .thumb {
     margin: 8px;
     cursor: all-scroll;
-    overflow: auto;
 }
 
 .gallery {
-    display: inline-flex;
+    display: flex;
+    overflow: auto;
 }
