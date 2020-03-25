@@ -12,9 +12,9 @@
     padding: 8px;
     bottom: -40px;
     position: absolute;
-    display: none;
+    /* display: none; */
 }
 
-.tooltip-text:hover .tooltip {
+.tooltip:hover .tooltip-text {
     display: block;
 }
