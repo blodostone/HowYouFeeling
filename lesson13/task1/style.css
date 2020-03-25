@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 .mountains {
     height: 500px;
@@ -13,5 +13,7 @@
     text-transform: uppercase;
     color: #fff;
     background-size: cover;
-    padding: 32px
+    padding: 32px;
+    display: block;
+    margin: auto;
 }
