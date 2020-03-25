@@ -1,0 +1,25 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    font-size: 74px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    /* white-space: nowrap; */
+    overflow: hidden;
+}
+
+.divHere {
+    height: 200px;
+    background-color: coral;
+}
+
+.textDiv {
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    line-height: 200px;
+}
