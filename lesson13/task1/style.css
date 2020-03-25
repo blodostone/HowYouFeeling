@@ -14,4 +14,6 @@
     color: #fff;
     background-size: cover;
     padding: 32px;
+    background-repeat: no-repeat;
+    background-color: #ff0000;
 }
