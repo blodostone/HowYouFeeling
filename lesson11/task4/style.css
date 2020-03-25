@@ -3,7 +3,7 @@
     border-bottom: 1px dotted black;
     position: relative;
     display: inline-flex;
-    font-weight: 450;
+    font-size: large;
 }
 
 .tooltip {
