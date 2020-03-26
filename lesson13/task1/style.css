@@ -8,7 +8,7 @@
     background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/task1/nature.jpeg);
     background-position: center;
     font-size: 32px;
-    opacity: 700;
+    font-weight: 700;
     text-align: center;
     text-transform: uppercase;
     -webkit-text-fill-color: #fff;
