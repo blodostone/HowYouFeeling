@@ -10,8 +10,7 @@
     font-size: 32px;
     font-weight: 700;
     text-align: center;
-    text-transform: uppercase;
-    -webkit-text-fill-color: #fff;
+    color: #fff;
     background-size: cover;
     padding: 32px;
 }
