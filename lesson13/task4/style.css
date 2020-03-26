@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
