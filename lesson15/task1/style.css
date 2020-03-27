@@ -16,11 +16,11 @@
     margin: 0 auto;
 }
 
-.first-filter {
+.opacity-filter {
     filter: opacity(50%);
 }
 
-.second-filter {
+.blur-filter {
     filter: blur(4px);
 }
 
@@ -29,11 +29,11 @@
     box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
 
-.third-filter {
+.invert-filter {
     filter: invert(100%);
 }
 
-.cap {
+.caption {
     display: block;
     line-height: 30px;
     text-align: center;
