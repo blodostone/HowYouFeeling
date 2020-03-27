@@ -34,12 +34,14 @@
 }
 
 .cap {
+    display: block;
     line-height: 30px;
     text-align: center;
     text-transform: lowercase;
 }
 
 .gallery {
-    margin-top: 50px;
     display: flex;
+    margin-top: 50px;
+    text-align: center;
 }
