@@ -1,4 +1,4 @@
-.rectangle {
+div.rectangle {
     background-color: blueviolet;
 }
 
@@ -6,6 +6,7 @@
     font-size: 24px;
 }
 
-.new::first-letter {
-    color: red;
+p.text::first-letter {
+    color: green;
+    font-size: 24px;
 }
