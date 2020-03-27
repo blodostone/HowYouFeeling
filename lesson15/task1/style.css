@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-top {
+    border-radius: 20px;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.first-filter {
+    filter: opacity(50%);
+}
+
+.second-filter {
+    filter: blur(4px);
+}
+
+.card {
+    margin: 16px;
+    box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+
+.third-filter {
+    filter: invert(100%);
+}
+
+.cap {
+    line-height: 30px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.gallery {
+    margin-top: 50px;
+    display: flex;
+}
