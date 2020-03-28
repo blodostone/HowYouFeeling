@@ -7,6 +7,10 @@
     display: block;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .image-top {
     border-radius: 20px;
     max-width: 100%;
@@ -21,20 +25,20 @@
     filter: blur(4px);
 }
 
+.invert-filter {
+    filter: invert(100%);
+}
+
 .card {
     margin: 16px;
     box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
 }
 
-.invert-filter {
-    filter: invert(100%);
-}
-
 .caption {
-    display: block;
     line-height: 30px;
     text-align: center;
     text-transform: lowercase;
+    display: block
 }
 
 .gallery {
