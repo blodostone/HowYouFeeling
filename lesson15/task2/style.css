@@ -1,6 +1,8 @@
 .source {
+    position: relative;
+    display: flex;
     margin: auto;
-    display: block;
     width: 500px;
+    max-width: 100%;
     margin-top: 200px;
 }
