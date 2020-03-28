@@ -1,8 +1,7 @@
 .source {
-    margin: 0 auto;
-    position: absolute;
-    right: 50%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .super {
