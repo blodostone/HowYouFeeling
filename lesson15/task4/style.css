@@ -23,14 +23,13 @@
     height: 50px;
     font-size: 12px;
     text-transform: uppercase;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .image-button:hover {
     opacity: 1;
-    cursor: pointer;
 }
