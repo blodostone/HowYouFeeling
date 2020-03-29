@@ -13,7 +13,6 @@
     height: auto;
     align-items: center;
     justify-content: center;
-    font-weight: 700;
     max-width: 100%;
 }
 
@@ -26,8 +25,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
     opacity: 0.5;
     cursor: pointer;
+    background-color: bisque;
 }
 
 .image-button:hover {
