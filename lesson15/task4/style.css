@@ -10,7 +10,7 @@
 
 .image {
     position: relative;
-    display: flex;
+    height: auto;
     align-items: center;
     justify-content: center;
     font-weight: 700;
@@ -24,7 +24,9 @@
     font-size: 12px;
     text-transform: uppercase;
     text-align: center;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     opacity: 0.5;
 }
 
