@@ -39,6 +39,7 @@ body {
     border: 1px #808080 solid;
     padding: 4px;
     outline: none;
+    width: 100%;
 }
 
 .form-label {
