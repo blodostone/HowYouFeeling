@@ -16,6 +16,9 @@ body {
 }
 
 .form-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
 }
 
@@ -39,8 +42,7 @@ body {
 }
 
 .form-label {
-    display: flex;
-    bottom: 4px;
+    margin-top: 4px;
 }
 
 .form-input:required {
@@ -55,4 +57,5 @@ body {
     margin-top: 16px;
     color: #ffff;
     border-radius: 4px;
+    text-transform: uppercase;
 }
