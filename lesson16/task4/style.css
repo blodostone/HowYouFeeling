@@ -1,0 +1,19 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: bisque;
+    }
+    
+    .page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: aqua;
+        font-size: 16px;
+        font-family: monospace;
+        flex-basis: 300px;
+        padding: 16px;
+        box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    }
