@@ -21,11 +21,6 @@ td {
     padding: 4px;
 }
 
-tbody>tr:hover {
-    background-color: #aaaaaa;
-    color: #ffffff;
-}
-
 thead {
     background-color: aqua;
 }
@@ -45,4 +40,9 @@ div {
 
 tbody>tr:nth-child(odd) {
     background-color: #f2f2f2;
+}
+
+tbody>tr:hover {
+    background-color: #aaaaaa;
+    color: #ffffff;
 }
