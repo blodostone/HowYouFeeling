@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    width: 500px;
+    margin: 16px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: right;
+    padding: 4px;
+    line-height: 40px;
+}
+
+tbody>tr:hover {
+    background-color: #aaaaaa;
+    color: #ffffff;
+}
+
+thead {
+    background-color: aqua;
+}
+
+tfoot {
+    font-weight: 700;
+}
+
+caption {
+    margin-bottom: 8px;
+}
+
+div {
+    overflow-x: auto;
+}
