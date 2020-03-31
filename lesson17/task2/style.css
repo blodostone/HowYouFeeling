@@ -17,7 +17,8 @@ td {
 th,
 td {
     text-align: right;
-    line-height: 40px;
+    height: 40px;
+    padding: 4px;
 }
 
 tbody>tr:hover {
@@ -34,7 +35,8 @@ tfoot {
 }
 
 caption {
-    margin: 8px;
+    margin-bottom: 8px;
+    margin-top: 0px;
 }
 
 div {
