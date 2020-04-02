@@ -37,7 +37,7 @@ html {
     font-size: 1.25em;
 }
 
-.section_header {
+.section__header {
     text-align: center;
     font-size: 5vw;
 }
@@ -66,11 +66,12 @@ html {
 }
 
 .nav-list-link {
-    text-decoration: none;
     color: white;
-    white-space: nowrap;
+    text-decoration: none;
     overflow: hidden;
+    white-space: nowrap;
     text-overflow: ellipsis;
+    text-decoration: none;
 }
 
 .news {
