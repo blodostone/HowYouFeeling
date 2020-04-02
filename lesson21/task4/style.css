@@ -59,23 +59,21 @@ html {
 }
 
 .nav-list-item {
-    background-color: gray;
-    color: white;
-    margin-top: 0.6em;
-    padding: 0.5em;
+    line-height: 2em;
     height: 2em;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    background-color: #808080;
+    margin-bottom: 0.5em;
 }
 
 .nav-list-link {
-    margin: auto;
-    color: white;
+    width: 100%;
+    display: inline-block;
+    padding: 0 0.5em;
     text-decoration: none;
-    /* overflow: hidden;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
     white-space: nowrap;
-    text-overflow: ellipsis; */
 }
 
 .news {
