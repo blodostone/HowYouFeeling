@@ -33,10 +33,16 @@
         display: flex;
         flex-grow: 2;
     }
+    .calc-for-two {
+        width: calc(100vw/2);
+    }
 }
 
 @media screen and (min-width: 900px) {
     .column {
         display: flex;
+    }
+    .calc-for-three {
+        width: calc(100vw/3);
     }
 }
