@@ -48,3 +48,15 @@ html {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+@media screen and (min-width: 600px) {
+    .button {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-list {
+        visibility: hidden;
+    }
+}
