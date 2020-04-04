@@ -84,6 +84,7 @@ html {
 .news {
     width: 20vw;
     padding: 0.5em;
+    flex-grow: 1;
 }
 
 .footer {
@@ -96,10 +97,10 @@ html {
     margin: auto;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
     .nav-and-section {
         display: flex;
-        flex-grow: 1;
+        flex-grow: 2;
     }
     .navigation {
         max-width: 20%;
@@ -110,6 +111,6 @@ html {
     .main {
         display: flex;
         flex-direction: column;
-        flex-grow: 1;
+        width: 100%;
     }
 }
