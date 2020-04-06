@@ -19,6 +19,7 @@ body {
 }
 
 h1 {
+    width: 100%;
     color: white;
     text-align: center;
 }
@@ -30,14 +31,14 @@ h1 {
 }
 
 .navigation {
-    padding: .5em;
     width: 100%;
+    padding: .5em;
 }
 
 .section {
+    width: 100%;
     font-size: 1.25em;
     padding: .5em;
-    width: 100%;
 }
 
 .info-section {
@@ -46,8 +47,8 @@ h1 {
 }
 
 .news {
-    padding: .5em;
     width: 100%;
+    padding: .5em;
 }
 
 .footer {
@@ -108,7 +109,7 @@ img {
 }
 
 @media screen and (min-width: 600px) {
-    .nav-and-section {
+    .info-section {
         flex-direction: row;
     }
     .navigation {
@@ -123,13 +124,13 @@ img {
     .main {
         flex-direction: row;
     }
-    .news {
-        width: 20vw;
-    }
     .navigation {
         width: 20vw;
     }
     .section {
         width: 60vw;
+    }
+    .news {
+        width: 20vw;
     }
 }
