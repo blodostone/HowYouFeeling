@@ -1,34 +1,48 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+@media screen and (orientation: portrait) {
+    .container {
+        flex-direction: column;
+    }
 }
 
 .square {
-  width: 100px;
-  height: 100px;
-  margin: 8px;
-  background-color: #ff7f50;
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    background-color: #ff7f50;
 }
+
 @media screen and (min-width: 600px) {
-  .square {
-    background-color: #8a2be2;
-  }
+    .square {
+        background-color: #8a2be2;
+    }
 }
+
 @media screen and (min-width: 900px) {
-  .square {
-    background-color: #a61;
-  }
+    .square {
+        background-color: #a61;
+    }
 }
+
 @media screen and (min-width: 1200px) {
-  .square {
-    background-color: #c47;
-  }
+    .square {
+        background-color: #c47;
+    }
 }
+
 
 /*# sourceMappingURL=styles.css.map */
