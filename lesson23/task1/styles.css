@@ -19,7 +19,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
-.nav-list_selected {
+.nav-list__item_selected {
   background-color: #fb0;
 }
 .nav-list__item:hover {
