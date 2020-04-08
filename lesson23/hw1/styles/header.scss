@@ -6,8 +6,13 @@
 .submenu {
     display: none;
     z-index: 1;
-    margin: 0;
-    padding: 0;
+    padding: 8px;
+    padding-top: 0;
+    background-color: $color-coral;
+    box-shadow: $shadow-sub;
+    color: $color-text;
+    list-style-type: none;
+    text-transform: uppercase;
 }
 
 .menu {
@@ -21,11 +26,9 @@
 
 .menu {
     margin: 0;
-    padding: 0;
     list-style-type: none;
     &__item {
         line-height: 48px;
-        margin-left: 16px;
         color: white;
         &:hover {
             color: $color-yellow;
@@ -35,27 +38,26 @@
     &__item-text {
         text-transform: uppercase;
         cursor: pointer;
+        padding: 8px;
     }
     &-text {
         &submenu {
-            display: none;
-            cursor: pointer;
-            z-index: 1;
-            margin: 0;
-            padding: 0;
-            background-color: $color-coral;
-            box-shadow: $shadow-sub;
-            color: $color-text;
-            &__item {
-                &:hover {
-                    display: block;
-                    color: $color-black;
-                }
+            &:hover {
+                display: block;
             }
         }
     }
 }
 
+.menu__item_active:hover .submenu {
+    display: block;
+}
+
 .submenu:hover {
     display: block;
+}
+
+.submenu__item:hover {
+    color: $color-black;
+    cursor: pointer;
 }

@@ -5,8 +5,13 @@
 .submenu {
   display: none;
   z-index: 1;
-  margin: 0;
-  padding: 0;
+  padding: 8px;
+  padding-top: 0;
+  background-color: #ff7f50;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  list-style-type: none;
+  text-transform: uppercase;
 }
 
 .menu {
@@ -20,12 +25,10 @@
 
 .menu {
   margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 .menu__item {
   line-height: 48px;
-  margin-left: 16px;
   color: white;
 }
 .menu__item:hover {
@@ -35,24 +38,23 @@
 .menu__item-text {
   text-transform: uppercase;
   cursor: pointer;
+  padding: 8px;
 }
-.menu-textsubmenu {
-  display: none;
-  cursor: pointer;
-  z-index: 1;
-  margin: 0;
-  padding: 0;
-  background-color: #ff7f50;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  color: #fff;
-}
-.menu-textsubmenu__item:hover {
+.menu-textsubmenu:hover {
   display: block;
-  color: #000000;
+}
+
+.menu__item_active:hover .submenu {
+  display: block;
 }
 
 .submenu:hover {
   display: block;
+}
+
+.submenu__item:hover {
+  color: #000000;
+  cursor: pointer;
 }
 
 * {
