@@ -15,6 +15,10 @@
   text-transform: uppercase;
 }
 
+.color {
+  color: #FFFF00;
+}
+
 .menu {
   display: flex;
 }
@@ -33,7 +37,7 @@
   position: relative;
   padding: 0 8px;
   line-height: 48px;
-  color: white;
+  color: #fff;
 }
 .menu__item:hover {
   color: #FFFF00;

@@ -16,6 +16,10 @@
     text-transform: uppercase;
 }
 
+.color {
+    color: $color-yellow;
+}
+
 .menu {
     display: flex;
 }
@@ -33,7 +37,7 @@
         position: relative;
         padding: 0 8px;
         line-height: 48px;
-        color: white;
+        color: $color-text;
         &:hover {
             color: $color-yellow;
             background-color: $color-second;
